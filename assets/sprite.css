@@ -1,0 +1,138 @@
+/* 
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-biasLineBg {
+  background-image: url(sprite.png);
+  background-position: -1406px -622px;
+  width: 5px;
+  height: 5px;
+}
+.icon-blackBgLine {
+  background-image: url(sprite.png);
+  background-position: 0px -1000px;
+  width: 440px;
+  height: 97px;
+}
+.icon-comments {
+  background-image: url(sprite.png);
+  background-position: -1340px -602px;
+  width: 20px;
+  height: 20px;
+}
+.icon-head-comunity-hover {
+  background-image: url(sprite.png);
+  background-position: -1320px -640px;
+  width: 19px;
+  height: 18px;
+}
+.icon-head-comunity {
+  background-image: url(sprite.png);
+  background-position: -1400px -602px;
+  width: 19px;
+  height: 18px;
+}
+.icon-head-home-hover {
+  background-image: url(sprite.png);
+  background-position: -1342px -622px;
+  width: 22px;
+  height: 18px;
+}
+.icon-head-home {
+  background-image: url(sprite.png);
+  background-position: -1320px -622px;
+  width: 22px;
+  height: 18px;
+}
+.icon-head-knowledge-hover {
+  background-image: url(sprite.png);
+  background-position: -1385px -622px;
+  width: 21px;
+  height: 18px;
+}
+.icon-head-knowledge {
+  background-image: url(sprite.png);
+  background-position: -1364px -622px;
+  width: 21px;
+  height: 18px;
+}
+.icon-horizonLinear {
+  background-image: url(sprite.png);
+  background-position: -440px -1000px;
+  width: 459px;
+  height: 1px;
+}
+.icon-join-red {
+  background-image: url(sprite.png);
+  background-position: -1380px -602px;
+  width: 20px;
+  height: 20px;
+}
+.icon-join {
+  background-image: url(sprite.png);
+  background-position: -1360px -602px;
+  width: 20px;
+  height: 20px;
+}
+.icon-lmbMainImg {
+  background-image: url(sprite.png);
+  background-position: -1000px 0px;
+  width: 420px;
+  height: 602px;
+}
+.icon-logo-left {
+  background-image: url(sprite.png);
+  background-position: -1000px -602px;
+  width: 320px;
+  height: 77px;
+}
+.icon-logo-right {
+  background-image: url(sprite.png);
+  background-position: -1000px -723px;
+  width: 122px;
+  height: 77px;
+}
+.icon-members {
+  background-image: url(sprite.png);
+  background-position: -1320px -602px;
+  width: 20px;
+  height: 20px;
+}
+.icon-tabLog {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 1000px;
+  height: 1000px;
+}
+.icon-tab_comments {
+  background-image: url(sprite.png);
+  background-position: -1000px -800px;
+  width: 32px;
+  height: 81px;
+}
+.icon-titleBg {
+  background-image: url(sprite.png);
+  background-position: -1000px -679px;
+  width: 390px;
+  height: 44px;
+}
+.icon-videoTip {
+  background-image: url(sprite.png);
+  background-position: -1122px -723px;
+  width: 233px;
+  height: 12px;
+}
