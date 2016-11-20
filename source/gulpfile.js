@@ -4,7 +4,7 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var spritesmith = require('gulp.spritesmith');
 var sprite = require('gulp-css-spriter');
-var minifycss = require('gulp-minify-css');
+var minifycss = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
@@ -15,6 +15,7 @@ gulp.task('browser-sync',['cp','js','build','sass'], function() {
 			baseDir: '..'
 		}
 	}) 
+	console.log('build success!')
 })
 gulp.task('cp', function() {
 	return gulp.src('assets/**/*', {base:'.'})
