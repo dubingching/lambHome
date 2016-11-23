@@ -284,6 +284,7 @@ body {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: space-between;
 		margin-top: pxTorem(3px);
 
 		a {
@@ -291,7 +292,6 @@ body {
 			display: inline-flex;
 			flex-direction: row;
 			height:60px;
-			
 			margin-top: pxTorem(12px);
 			
 		}
@@ -301,7 +301,7 @@ body {
 		}
 		.fl {
 			margin-left: 8px;
-			margin-right: pxTorem(40px); 
+			
 			.name {
 				height: 15px;
 				margin-bottom: 7px;
@@ -361,7 +361,7 @@ body {
 			border: none;
 		}
 		a {
-			width: pxTorem(550px);
+			width: pxTorem(520px);
 			overflow: hidden;
 			text-overflow: ellipsis;
 			white-space: nowrap;
