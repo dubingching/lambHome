@@ -59,9 +59,9 @@ html {
 @media (min-device-width : 360px) and (max-device-width : 667px){
       html{font-size: 36px;}
 }
-/* @media (min-device-width : 320px) and (max-device-width : 620px){
+@media (device-width : 320px){
       html{font-size: 32px;}
-} */
+} 
 body { 
 	margin: 0 auto;
 	width: pxTorem(750px); 
